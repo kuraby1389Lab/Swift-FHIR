@@ -5738,7 +5738,7 @@ public enum ExampleDiagnosisTypeCodes: String {
 	case retrospective = "retrospective"
 	
 	/// A diagnosis determined by the patient.
-	case `self` = "self"
+	case selfCase = "self"
 }
 
 
@@ -13171,7 +13171,7 @@ public enum SubscriberRelationshipCodes: String {
 	case other = "other"
 	
 	/// The Beneficiary is the Subscriber
-	case `self` = "self"
+	case selfCase = "self"
 	
 	/// The Beneficiary is covered under insurance of the subscriber due to an injury.
 	case injured = "injured"
